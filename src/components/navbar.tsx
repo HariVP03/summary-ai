@@ -147,27 +147,13 @@ export const Navbar = () => {
             display={mobileNav.isOpen ? "none" : "flex"}
             alignItems="center"
           >
-            <Button colorScheme="blue" leftIcon={<BsPlus />}>
-              New Wallet
-            </Button>
-
-            <chakra.a
-              p={3}
-              color="gray.800"
-              _dark={{
-                color: "inherit",
-              }}
-              rounded="sm"
-              _hover={{
-                color: "gray.800",
-                _dark: {
-                  color: "gray.600",
-                },
-              }}
+            <Button
+              onClick={() => route.push("/upload")}
+              colorScheme="blue"
+              leftIcon={<BsPlus />}
             >
-              <AiFillBell />
-              <VisuallyHidden>Notifications</VisuallyHidden>
-            </chakra.a>
+              Upload
+            </Button>
 
             <Avatar
               size="sm"
