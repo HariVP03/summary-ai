@@ -41,7 +41,7 @@ const navItems: {
 
 export const Navbar = () => {
   const route = useRouter();
-  const bg = useColorModeValue("white", "gray.800");
+  const bg = useColorModeValue("yellow.600", "gray.400");
   const mobileNav = useDisclosure();
   return (
     <React.Fragment>
