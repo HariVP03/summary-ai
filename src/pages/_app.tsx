@@ -1,4 +1,4 @@
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
@@ -7,7 +7,14 @@ const config = {
   useSystemColorMode: false,
 };
 
-const theme = extendTheme({ config });
+const commonFont = "Poppins, sans-serif";
+
+const fonts = {
+  heading: commonFont,
+  body: commonFont,
+};
+
+const theme = extendTheme({ config, fonts });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
