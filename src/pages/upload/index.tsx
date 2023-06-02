@@ -10,18 +10,9 @@ import {
 } from "@chakra-ui/react";
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import { YoutubeTranscript } from "youtube-transcript";
 
 export default function Upload() {
   const [data, setData] = useState({});
-
-  useEffect(() => {
-    // fetch youtube video transcrupt
-
-    YoutubeTranscript.fetchTranscript("9JpdAg6uMXs").then((data) => {
-      setData(data);
-    });
-  }, []);
 
   return (
     <>
