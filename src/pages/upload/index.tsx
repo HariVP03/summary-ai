@@ -6,7 +6,7 @@ export default function Upload() {
   return (
     <>
       <Head>
-        <title>Uploadus</title>
+        <title>Upload</title>
       </Head>
       <chakra.main>
         <Navbar />
