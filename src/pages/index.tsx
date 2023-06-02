@@ -15,7 +15,6 @@ export default function Home() {
       </Head>
       <chakra.main>
         <Navbar />
-        123
       </chakra.main>
     </>
   );
