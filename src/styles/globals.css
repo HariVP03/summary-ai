@@ -6,3 +6,6 @@
 .bac{
   background: linear-gradient(180deg, #E19F1D 10%, rgba(86, 83, 83, 1) 100%);
 }
+.bac2{
+  background: linear-gradient(180deg, rgba(86, 83, 83, 1) 10%,#E19F1D 100%);
+}
