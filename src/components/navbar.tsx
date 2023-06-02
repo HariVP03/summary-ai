@@ -45,7 +45,7 @@ export function Navbar({ children }: any) {
   return (
     <>
       <div>
-        <Disclosure as="nav" className="bg-[ rgba(217, 217, 217, 0.25)]">
+        <Disclosure as="nav" className="bg-[ rgba(217, 217, 217, 0.25)] shadow-xl">
           {({ open }: any) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

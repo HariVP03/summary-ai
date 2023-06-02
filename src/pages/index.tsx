@@ -4,7 +4,7 @@ import { Navbar } from "@/components/navbar";
 import { chakra } from "@chakra-ui/react";
 import Read from "./components/Read";
 import Hero from "./components/Hero";
-
+import Drag from "./components/Drag";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -19,6 +19,7 @@ export default function Home() {
         {/* <Navbar/> */}
         <Hero/>
         <Read/>
+        <Drag/>
       </main>
     </>
   );
