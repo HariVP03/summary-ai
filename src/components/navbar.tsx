@@ -64,7 +64,7 @@ export function Navbar({ children }: any) {
         current: route.pathname === "/about-us",
       },
       {
-        name: "Uploads",
+        name: "Upload",
         onClick: () => signIn(),
         current: route.pathname === "/upload",
       },
@@ -230,7 +230,6 @@ export function Navbar({ children }: any) {
                       <Disclosure.Button
                         key={item.name}
                         as="a"
-                        href={item.href}
                         className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
                       >
                         {item.name}
